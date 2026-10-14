@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#11100f" />
+  <meta name="description" content="Shivraj Singh — Computer Science Engineering student building thoughtful web and AI-powered products." />
+  <title>Shivraj Singh — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Shivraj Singh — home">SS<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-controls="nav" aria-expanded="false"><span></span><span></span></button>
+    <nav id="nav" aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#journey">Journey</a>
+      <a class="nav-cta" href="#contact">Let’s talk <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero page-width" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="availability"><span aria-hidden="true"></span> Open to internships &amp; collaborations</p>
+        <h1 id="hero-title">I build useful digital products with <em>curiosity</em> and care.</h1>
+        <p class="lede">I’m Shivraj Singh, a Computer Science Engineering student exploring full-stack web development, AI, and the craft of turning an idea into something people can use.</p>
+        <div class="hero-actions"><a class="button button-solid" href="#work">Explore selected work <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a><a class="text-action" href="https://github.com/shivrajsingh432" target="_blank" rel="noreferrer">Visit GitHub <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a></div>
+      </div>
+      <aside class="hero-note reveal" aria-label="Current focus">
+        <figure class="hero-portrait">
+          <img src="profile.jpg.png" alt="Portrait of Shivraj Singh" />
+        </figure>
+        <p class="note-label">Currently studying</p><p class="note-focus">Computer Science Engineering<br><span>2023—2027 · Lucknow, India</span></p><div class="note-rule"></div><p class="note-label">Working through</p>
+        <ul><li>Full-stack web products</li><li>AI/ML fundamentals</li><li>Data structures &amp; algorithms</li></ul>
+      </aside>
+    </section>
+    <section class="about section-grid page-width" id="about" aria-labelledby="about-title">
+      <div class="section-intro reveal"><p class="section-number">01</p><h2 id="about-title">A developer in progress, serious about the details.</h2></div>
+      <div class="about-copy reveal"><p>I’m pursuing a B.Tech in Computer Science Engineering at Ambalika Institute of Management and Technology, Lucknow. I learn best by building: taking a problem, shaping a practical solution, and improving it through iteration.</p><p>My interests sit where web development, data, and AI meet. I care about understandable interfaces, solid foundations, and work that earns trust through clarity instead of big claims.</p><a class="text-action" href="https://www.linkedin.com/in/shivraj-singh-940171290" target="_blank" rel="noreferrer">Connect on LinkedIn <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a></div>
+    </section>
+    <section class="work-section page-width" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal"><p class="section-number">02</p><h2 id="work-title">Selected work</h2><p>A growing collection of products and product ideas. Each project is labeled to reflect its current stage honestly.</p></div>
+      <div class="project-list">
+        <article class="project project-featured reveal"><div class="project-index" aria-hidden="true">A</div><div class="project-main"><div class="project-meta"><span>In development</span><span>Analytics · AI</span></div><h3>SignalForge</h3><p>An AI-powered merchant analytics concept that turns synthetic transaction data into business insights, dashboard metrics, and assistant-style recommendations.</p><ul class="project-tags" aria-label="SignalForge technologies"><li>FastAPI</li><li>React</li><li>Python</li><li>AI assistant</li></ul></div><div class="project-side"><p>Exploring how data becomes a clearer next decision.</p><a class="text-action" href="https://github.com/shivrajsingh432" target="_blank" rel="noreferrer">View GitHub <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a></div></article>
+        <article class="project reveal"><div class="project-index" aria-hidden="true">B</div><div class="project-main"><div class="project-meta"><span>Repository available</span><span>Real-time · AI</span></div><h3>Smart Meeting App</h3><p>A video meeting application with room creation, joining, real-time communication, AI meeting summaries, and participant engagement scoring.</p><ul class="project-tags" aria-label="Smart Meeting App technologies"><li>WebRTC</li><li>Socket.io</li><li>Express</li><li>MongoDB</li></ul></div><div class="project-side"><p>A practical exploration of real-time communication and AI-assisted meeting notes.</p><a class="text-action" href="https://github.com/shivrajsingh432/smart-meeting-app" target="_blank" rel="noreferrer">View repository <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a></div></article>
+        <article class="project reveal"><div class="project-index" aria-hidden="true">C</div><div class="project-main"><div class="project-meta"><span>Concept stage</span><span>Community · AI</span></div><h3>Eventra</h3><p>An AI-powered community and event-management platform concept for hackathons, workshops, quizzes, team formation, and member activity insights.</p><ul class="project-tags" aria-label="Eventra technologies"><li>Spring Boot</li><li>PostgreSQL</li><li>AI agents</li></ul></div><div class="project-side"><p>A concept for bringing event logistics and community activity into one thoughtful flow.</p></div></article>
+        <article class="project reveal"><div class="project-index" aria-hidden="true">D</div><div class="project-main"><div class="project-meta"><span>Concept stage</span><span>Personal finance</span></div><h3>SpendWise</h3><p>A personal finance project concept focused on expense tracking, spending patterns, and clear insights to help people understand their habits.</p><ul class="project-tags" aria-label="SpendWise themes"><li>Web app</li><li>Data visualization</li><li>Insights</li></ul></div><div class="project-side"><p>Exploring a calmer, more useful way to understand everyday spending.</p></div></article>
+      </div>
+    </section>
+    <section class="skills-section page-width" id="skills" aria-labelledby="skills-title"><div class="section-heading reveal"><p class="section-number">03</p><h2 id="skills-title">What I’m actively building with</h2></div><div class="skill-layout"><p class="skills-intro reveal">These are the tools and areas I use or am actively learning. They represent current direction, not a claim of expertise in every technology.</p><dl class="skill-list reveal"><div><dt>Programming</dt><dd>C++, Java, Python, JavaScript, DSA</dd></div><div><dt>Web development</dt><dd>HTML, CSS, React, Node.js, Express, REST APIs</dd></div><div><dt>Data &amp; AI</dt><dd>MongoDB, SQL, AI/ML fundamentals, analytics</dd></div><div><dt>Practice</dt><dd>Git, GitHub, API integration, debugging, problem-solving</dd></div></dl></div></section>
+    <section class="journey page-width" id="journey" aria-labelledby="journey-title"><div class="section-heading reveal"><p class="section-number">04</p><h2 id="journey-title">The work behind the work</h2></div><ol class="timeline reveal"><li><time>2023—2027</time><div><h3>B.Tech · Computer Science Engineering</h3><p>Ambalika Institute of Management and Technology, Lucknow. Expected graduation in 2027.</p></div></li><li><time>Ongoing</time><div><h3>Data structures &amp; problem solving</h3><p>Strengthening core programming foundations through regular practice and project work.</p></div></li><li><time>Now</time><div><h3>Full-stack and AI-enabled projects</h3><p>Exploring APIs, databases, real-time applications, analytics, and practical AI integration.</p></div></li></ol></section>
+    <section class="contact page-width" id="contact" aria-labelledby="contact-title"><div class="contact-panel reveal"><p class="section-number">05</p><h2 id="contact-title">Have an opportunity worth building for?</h2><p>I’m open to software engineering internships, freelance web projects, and thoughtful collaborations.</p><div class="contact-actions"><a class="button button-solid" href="https://www.linkedin.com/in/shivraj-singh-940171290" target="_blank" rel="noreferrer">Connect on LinkedIn <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a><a class="text-action" href="https://github.com/shivrajsingh432" target="_blank" rel="noreferrer">Explore GitHub <svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7"/></svg></a></div></div></section>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="#home" aria-label="Back to top">SS<span>.</span></a><p>Built with curiosity. Kept honest.</p><span>© <span id="year"></span> Shivraj Singh</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

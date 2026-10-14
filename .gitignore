@@ -1,0 +1,33 @@
+# Keep repository uploads limited to the website itself.
+README.md
+**/README.md
+DESIGN.md
+PRODUCT.md
+docs/
+.impeccable/
+
+# Secrets and local environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system and editor files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local tooling and generated output.
+node_modules/
+dist/
+build/
+coverage/
